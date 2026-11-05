@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Um museu virtual para explorar a história, os monumentos e os mistérios do Egito Antigo.">
+  <title>Egito Antigo | Museu Virtual</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+    <a class="brand" href="index.html" aria-label="Página inicial">
+      <span>EGITO <b>ANTIGO</b></span>
+    </a>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="main-nav">
+      <a class="active" href="index.html">Início</a>
+      <a href="civilizacao.html">A civilização</a>
+      <a href="monumentos.html">Monumentos</a>
+      <a href="experiencias.html">Jogos</a><a href="legado.html">Legado</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-shade"></div>
+      <div class="hero-content reveal">
+        
+        <h1>EGITO<br><em>ANTIGO</em></h1>
+        <p class="hero-copy">Uma civilização que desafiou a eternidade. Explore faraós, pirâmides, rituais e conhecimentos que atravessaram milênios.</p>
+        <div class="hero-actions">
+          <a class="button button-gold" href="civilizacao.html">Começar a explorar <span>→</span></a>
+          <a class="text-link light-link" href="#destaques">Descobrir os destaques ↓</a>
+        </div>
+        
+      </div>
+      <div class="hero-caption">PLANALTO DE GIZÉ, EGITO</div>
+    </section>
+
+    <section class="intro section-wrap" id="destaques">
+      <div class="intro-art">
+        <img src="https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&w=1200&q=90" alt="Pirâmides do Egito sob a luz do sol">
+        
+      </div>
+      <div class="intro-copy">
+        <p class="eyebrow">PORTAS ABERTAS PARA O PASSADO</p>
+        <h2>Uma história escrita<br>em pedra e areia.</h2>
+        <p>O Egito Antigo se desenvolveu no nordeste da África, principalmente ao longo do rio Nilo. Suas cheias fertilizavam o solo, favoreciam a agricultura e ajudavam a sustentar cidades, templos e grandes projetos arquitetônicos.</p>
+        <p>Religião, poder político, observação da natureza e conhecimento técnico se conectavam no cotidiano egípcio. Os vestígios dessa sociedade continuam despertando perguntas e admiração.</p>
+        <a class="button button-dark" href="civilizacao.html">Conhecer a civilização <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="topic-section">
+      <div class="section-wrap">
+        <div class="section-heading">
+          <div><p class="eyebrow light">EXPLORE POR TEMAS</p><h2>Um mundo de descobertas</h2></div>
+          <p>Escolha uma trilha e mergulhe nos aspectos que fizeram essa civilização atravessar milênios.</p>
+        </div>
+        <div class="topic-grid">
+          <a class="topic-card" href="civilizacao.html#faraos">
+            <img src="https://images.unsplash.com/photo-1568322445389-f64ac2515020?auto=format&fit=crop&w=700&q=85" alt="Escultura egípcia antiga">
+            <h3>Faraós e sociedade</h3><span class="topic-detail">Governantes e organização social</span>
+          </a>
+          <a class="topic-card" href="monumentos.html#piramides">
+            <img src="https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&w=700&q=85" alt="Pirâmides monumentais no deserto">
+            <h3>Pirâmides e templos</h3><span class="topic-detail">Arquitetura e engenharia</span>
+          </a>
+          <a class="topic-card" href="monumentos.html#mumificacao">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFLZaGqeF3cpgAf3aVahzWq2F2WBqtHG8PGIWFoMUmCfDquuGdZ12mJ6bG&s=10" alt="Sarcófago egípcio ornamentado">
+            <h3>Mumificação</h3><span class="topic-detail">Rituais e vida após a morte</span>
+          </a>
+          <a class="topic-card" href="civilizacao.html#escrita">
+            <img src="https://images.unsplash.com/photo-1568322445389-f64ac2515020?auto=format&fit=crop&w=700&q=85" alt="Hieróglifos gravados em pedra">
+            <h3>Escrita e saberes</h3><span class="topic-detail">Hieróglifos, matemática e medicina</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="timeline-section section-wrap">
+      <div class="timeline-intro"><p class="eyebrow">DO PASSADO AO LEGADO</p><h2>Uma linha do tempo<br>extraordinária.</h2><p>O Egito Antigo mudou ao longo de muitos séculos. Selecione um período para conhecer alguns marcos importantes.</p></div>
+      <div class="timeline-interactive">
+        <div class="timeline-tabs" role="tablist">
+          <button class="time-tab active" data-period="unificacao">c. 3100 a.C.</button>
+          <button class="time-tab" data-period="piramides">c. 2600 a.C.</button>
+          <button class="time-tab" data-period="novo">c. 1550 a.C.</button>
+          <button class="time-tab" data-period="greco">332 a.C.</button>
+        </div>
+        <div class="timeline-detail" aria-live="polite">
+          <span class="timeline-kicker">MARCO HISTÓRICO</span><h3 id="timeline-title">Unificação do Egito</h3><p id="timeline-text">Tradicionalmente, o início do período dinástico é associado à unificação do Alto e do Baixo Egito, ligada ao governante Menés/Narmer.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="video-section" id="video">
+      <div class="video-image video-player-wrap">
+        <video class="group-video" controls preload="metadata" poster="https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e?auto=format&fit=crop&w=1200&q=85" aria-label="Reportagem sobre o cotidiano no Egito Antigo">
+          <source src="assets/telejornal-egito-mmp.mp4" type="video/mp4">
+          Seu navegador não consegue reproduzir este vídeo.
+        </video>
+        <span class="video-label">REPORTAGEM HISTÓRICA</span>
+      </div>
+      <div class="video-copy">
+        <p class="eyebrow light">REPORTAGEM ESPECIAL</p>
+        <h2>Uma reportagem<br><em>do Egito Antigo.</em></h2>
+        <p>Durante uma pesquisa sobre os registros do Egito Antigo, pesquisadores encontraram um relato que apresenta uma reportagem produzida naquele período. O material acompanha a vida às margens do Nilo, o trabalho nas grandes construções e as crenças que faziam parte do cotidiano egípcio.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-main">
+      <div class="footer-brand"><div><strong>EGITO ANTIGO</strong></div><p>Uma civilização que desafiou a eternidade.</p></div>
+      <div class="footer-column"><h4>EXPLORE</h4><a href="civilizacao.html">A civilização</a><a href="monumentos.html">Monumentos e rituais</a><a href="experiencias.html">Jogos interativos</a><a href="legado.html">Legado</a></div>
+      <div class="footer-column"><h4>PROJETO</h4><a href="#video">Reportagem em vídeo</a><a href="experiencias.html#mapa">Mapa interativo</a><a href="experiencias.html#quiz">Quiz do Egito</a></div>
+      
+    </div>
+    <div class="footer-bottom"><span>© 2026 • Projeto escolar de Web Design e Multimídia</span><span>@InstitutoFederalCatarinense</span><span>Desenvolvido por <b>Maísa Mengatto, Taila Faccin e Henrique Rigo</b></span></div>
+  </footer>
+</body>
+</html>

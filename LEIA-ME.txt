@@ -1,0 +1,41 @@
+EGITO ANTIGO — MUSEU VIRTUAL
+Projeto escolar de Web Design e Multimídia
+
+ARQUIVOS
+- index.html: página inicial, apresentação, destaques e espaço para o vídeo.
+- civilizacao.html: rio Nilo, faraós, sociedade, escrita e tabela HTML.
+- monumentos.html: pirâmides, templos, mumificação e jogo de construção.
+- experiencias.html: quiz, mapa clicável, jogo da memória e galeria.
+- css/style.css: folha de estilos externa.
+- js/script.js: interações em JavaScript.
+
+COMO ABRIR
+1. Extraia o arquivo ZIP.
+2. Abra a pasta no Visual Studio Code.
+3. Abra index.html no navegador ou use a extensão Live Server.
+4. As imagens e fontes desta versão usam links externos; é necessário estar conectado à internet para carregá-las.
+
+COMO COLOCAR O VÍDEO DO GRUPO
+1. Exporte o vídeo final com duração entre 2 e 5 minutos.
+2. Copie o arquivo para a pasta assets/ com o nome telejornal-egito-mmp.mp4.
+3. Em index.html, localize o bloco <div class="video-placeholder" id="video-placeholder">.
+4. Substitua esse bloco pelo código abaixo:
+
+<video class="group-video" controls preload="metadata" poster="https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e?auto=format&fit=crop&w=1200&q=85">
+  <source src="assets/telejornal-egito-mmp.mp4" type="video/mp4">
+  Seu navegador não suporta a reprodução de vídeo.
+</video>
+
+5. No final de css/style.css, adicione:
+.group-video { width: 100%; display: block; margin-top: 25px; background: #160d09; }
+
+IMPORTANTE
+- O espaço do vídeo está preparado visualmente, mas o vídeo do grupo precisa ser gravado e inserido pelos integrantes.
+- Para publicar no GitHub Pages, envie todos os arquivos HTML, a pasta css, a pasta js e a pasta assets.
+- Confira a grafia dos nomes e o @ institucional antes de entregar.
+- Conteúdo histórico resumido para fins educacionais; consulte fontes confiáveis ao preparar a apresentação oral.
+
+
+VÍDEO DO GRUPO
+Coloque o vídeo final em assets/telejornal-egito-mmp.mp4 para que ele apareça no player da página inicial.
+A navegação agora separa Jogos (experiências interativas) e Legado (encerramento da visita).
